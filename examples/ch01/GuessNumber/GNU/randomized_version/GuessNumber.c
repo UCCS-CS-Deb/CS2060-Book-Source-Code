@@ -33,7 +33,7 @@ void guessGame(void)
    do {
       answer = MIN_NUMBER + rand() % MAX_NUMBER;
 
-      printf("Hello, I have a number between %d and %d .\n" 
+      printf("Hello AJ, I have a number between %d and %d .\n" 
           "Can you guess my number?\n"
            "Please type your first guess.", MIN_NUMBER, MAX_NUMBER);
 
