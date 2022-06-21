@@ -14,9 +14,13 @@ int main( void )
    // process 10 students using counter-controlled loop 
    while ( student <= 10 ) {
 
+
       // prompt user for input and obtain value from user 
-      printf( "%s", "Enter result ( 1=pass,2=fail ): " );
-      scanf( "%d", &result );
+      do {
+         printf("%s", "Enter results ( 1=pass,2=fail ): ");
+         scanf("%d", &result);
+      } while (result != 1 && result != 2);
+
 
       // if result 1, increment passes 
       if ( result == 1 ) {     

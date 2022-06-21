@@ -5,7 +5,30 @@
 // function main begins program execution 
 int main( void )
 {
-   printf( "Welcome to C!\n" );
+	//Initializing variables
+	unsigned int length = 0;
+	unsigned int width = 0;
+	unsigned int area = 0;
+	unsigned int division = 0;
+
+	//Getting input for length
+	puts("Enter the length: ");
+	scanf("%u", &length);
+
+	//Getting input for width
+	puts("Enter the width: ");
+	scanf("%u", &width);
+
+	//Calculating area
+	area = length * width;
+
+	//Calculating length/width
+	division = length / width;
+
+	printf("Length: %u   Width: %u   Area: %u\n", length, width, area);
+	printf("Length/width: %u\n", division);
+
+	return 0;
 } // end function main 
 
 
