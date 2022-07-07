@@ -37,21 +37,7 @@ int main(void)
 
 	}
 
-	
-	for (unsigned int counter = 1; counter < 6; counter++)
-	{
-		puts("\nEnter an integer");
-		fgets(inputStr, LENGTH, stdin);
-		inputLength = strlen(inputStr);
-		printf("String Length: %d for %s\n", inputLength, inputStr);
 
-		
-		while (!isValid)
-		{
-			fgets(inputStr, LENGTH, stdin);
-			isValid = validateInt(inputStr, &integerValue);
-		}
-	}
 	
 }
 
