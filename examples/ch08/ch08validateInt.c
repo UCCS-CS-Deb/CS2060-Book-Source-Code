@@ -13,7 +13,7 @@
 #include <stdbool.h>
 
 
-#define LENGTH 13
+#define LENGTH 80
 
 void  exploreValidateInt(const char* buff);
 bool validateInt(char* buff, int* const validInt);
