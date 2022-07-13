@@ -1,9 +1,3 @@
-/*
-	if (inputStr[strlen(inputStr) - 1] == '\n')
-	{
-		inputStr[strlen(inputStr) - 1] = '\0';
-	}
-*/
 
 #include <stdio.h>
 #include <errno.h>
